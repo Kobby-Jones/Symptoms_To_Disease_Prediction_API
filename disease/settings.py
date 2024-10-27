@@ -26,9 +26,9 @@ SECRET_KEY = 'HfbQOSdRqgC61x2ra49kYCoznurU1EkQThthvu0TiHdnEWuL9W2SnJYLtyZZbvRci-
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://symptoms-to-disease-prediction-api.onrender.com']
 
 
 # Application definition
